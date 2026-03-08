@@ -1,0 +1,83 @@
+body{
+margin:0;
+background:#050505;
+font-family:Arial, sans-serif;
+color:white;
+text-align:center;
+}
+
+.hero{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+.artist{
+width:220px;
+border-radius:50%;
+border:3px solid white;
+margin-bottom:20px;
+}
+
+h1{
+font-size:56px;
+letter-spacing:4px;
+margin:10px 0;
+}
+
+.tag{
+opacity:.7;
+margin-bottom:30px;
+}
+
+.player{
+margin:40px 0;
+}
+
+.buttons a{
+display:inline-block;
+margin:10px;
+padding:12px 26px;
+border:1px solid white;
+color:white;
+text-decoration:none;
+transition:0.3s;
+}
+
+.buttons a:hover{
+background:white;
+color:black;
+}
+
+.serviceBtn{
+margin-top:40px;
+padding:14px 30px;
+border:1px solid white;
+background:none;
+color:white;
+cursor:pointer;
+font-size:16px;
+}
+
+.serviceBtn:hover{
+background:white;
+color:black;
+}
+
+#services{
+display:none;
+margin-top:40px;
+text-align:left;
+}
+
+.card{
+border:1px solid #333;
+padding:20px;
+margin:15px 0;
+}
+
+footer{
+margin-top:60px;
+font-size:12px;
+opacity:.5;
+}
